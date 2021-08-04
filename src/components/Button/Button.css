@@ -1,0 +1,58 @@
+.Button {
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 0 #78a7bb;
+  color: #81898e;
+  cursor: pointer;
+  display: flex;
+  font-size: 28px;
+  font-weight: bold;
+  outline: none;
+  justify-content: center;
+}
+
+.Button:hover {
+  box-shadow: 0 7px 0 #78a7bb;
+  transform: translateY(1px);
+}
+
+.Button:active {
+  box-shadow: 0 4px 0 #78a7bb;
+  transform: translateY(4px);
+}
+
+.Button--clear {
+  background-color: #ff9fa7;
+  box-shadow: 0 8px 0 #ff7b83;
+  color: #ffffff;
+}
+
+.Button--clear:hover {
+  box-shadow: 0 7px 0 #ff7b83;
+  transform: translateY(1px);
+}
+
+.Button--clear:active {
+  box-shadow: 0 4px 0 #ff7b83;
+  transform: translateY(4px);
+}
+
+.Button--operator {
+  background-color: #fff0f5;
+}
+
+.Button--equals {
+  background-color: #f1ff8b;
+  box-shadow: 0 8px 0 #9cab44;
+}
+
+.Button--equals:hover {
+  box-shadow: 0 7px 0 #9cab44;
+  transform: translateY(1px);
+}
+
+.Button--equals:active {
+  box-shadow: 0 4px 0 #9cab44;
+  transform: translateY(4px);
+}

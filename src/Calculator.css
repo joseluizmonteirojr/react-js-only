@@ -1,0 +1,11 @@
+.Calculator {
+  background: #8dcfed;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-row-gap: 25px;
+  grid-auto-rows: minmax(70px, auto);
+  margin: 40px auto 0;
+  padding: 40px 40px 48px;
+  width: 620px;
+}

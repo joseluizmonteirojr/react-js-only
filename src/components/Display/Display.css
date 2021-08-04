@@ -1,0 +1,16 @@
+.Display {
+  align-items: center;
+  background-color: #78a7bb;
+  border-radius: 8px;
+  box-shadow: 0 -8px 0 #618698;
+  color: #ffffff;
+  display: flex;
+  grid-column-end: 5;
+  grid-column-start: 2;
+  font-size: 28px;
+  font-weight: bold;
+  justify-content: flex-end;
+  padding: 0 30px;
+  position: relative;
+  top: 8px;
+}
